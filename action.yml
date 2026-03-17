@@ -58,7 +58,7 @@ runs:
         INPUT_BADGE-NEUTRAL-COLOR: ${{ inputs.badge-neutral-color }}
 
     - name: Create Badge
-      uses: emibcn/badge-action@v2.0.2
+      uses: emibcn/badge-action@v2.0.3
       with:
         label: ${{ inputs.badge-text }}
         status: "${{ steps.action.outputs.percentage }} (${{ steps.action.outputs.covered }})"
